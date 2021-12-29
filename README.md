@@ -1,0 +1,1 @@
+This is absolutely not my idea, this is from my client but since it's cool, I made it. All you need to do is to enter a word and a letter then the result will be the letter occurence in the word.
