@@ -9,6 +9,7 @@ body{
     min-height: 100vh;
     display: grid;
     place-items: center;
+    background-color: wheat;
 }
 .container{
     width: 90%;
@@ -45,6 +46,8 @@ body{
     font-size: 1.3em;
     border-radius: 3em;
     font-weight: bolder;
+    background-color: lightgoldenrodyellow;
+    color: darkred;
 }
 #find:hover{
     background-color: darkred;
@@ -57,7 +60,8 @@ input[type='text']{
     border-radius: 1em;
     padding: 1em;
     color: darkred;
-    font-weight: bolder;
+    font-weight: 900;
+    background-color: lightgoldenrodyellow;
 }
 .instruction>p{
     
@@ -80,6 +84,7 @@ input[type='text']{
 }
 .instruction>p{
     padding: 1em;
+    color: darkred;
 }
 .instruction::before{
     position: absolute;
@@ -100,7 +105,7 @@ input[type='text']{
     position: absolute;
     content: '';
     inset: 0.2em;
-    background-color: white;
+    background-color: wheat;
     border-radius: 80em;
     z-index: 2;
 }
@@ -112,6 +117,7 @@ form{
 .results{
     font-size: 3em;
     text-align: center;
+    color: darkred;
 }
 @keyframes animate{
     0%{
